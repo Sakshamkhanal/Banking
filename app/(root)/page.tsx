@@ -1,6 +1,6 @@
 import React from "react";
-import HeaderBox  from "@/components/HeaderBox";
-import TotalBalanceBox from "@/components/TotalBalanceBox";
+import HeaderBox  from "@/components/ui/HeaderBox";
+import TotalBalanceBox from "@/components/ui/TotalBalanceBox";
 const Home =()=>{
     const loggedIn = {firstName:'Saksham'};
     return(
@@ -19,7 +19,6 @@ const Home =()=>{
                     totalCurrentBalance={1250.35}/>
                 </header>
             </div>
-
         </section>
     )
 }
